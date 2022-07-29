@@ -9,11 +9,18 @@
 }
 
 * {
+    box-sizing: border-box;
     margin: 0px;
 }
 
 header {
-    max-height: 385px;
+    height: 30vh;
+    width: 100vw;
+    background-color: black;
+    background-image: url('../images/jester-teste1001.jpg');
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
 }
 
 main {
