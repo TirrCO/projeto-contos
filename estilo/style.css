@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+:root {
+    --cor1: #540B0E;
+    --cor2: #9E2A2B;
+    --cor3: #E09F3E;
+    --cor4: #FFF3B0;
+    --cor5: #335C67;
+}
+
+* {
+    margin: 0px;
+}
+
+header {
+    max-height: 385px;
+}
+
+main {
+    background-color: var(--cor4);
+}
+
+main > section {
+    background-color: white;
+}
+
+footer {
+    background-image: linear-gradient(to bottom, var(--cor4), var(--cor5));
+}
